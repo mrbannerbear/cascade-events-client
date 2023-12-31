@@ -4,7 +4,14 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
     ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "themeBlack": "#1a1919"
+      },
+      fontFamily: {
+        "elegant": 'Oranienbaum'
+      }
+    },
   },
   plugins: [],
 }

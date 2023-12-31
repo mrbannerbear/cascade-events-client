@@ -4,14 +4,13 @@ import Home from "../components/home/Home";
 
 const Router = new createBrowserRouter([
     {
-        path: "/",
         element: <MainElement></MainElement>,
         children: [
-            {
-                path: "/",
-                element: <Home></Home>
-            }
         ]
+    },
+    {
+        path: "/",
+        element: <Home></Home>
     }
 ])
 

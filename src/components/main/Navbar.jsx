@@ -1,8 +1,8 @@
 const Navbar = () => {
     return (
-        <div className="bg-black h-20 text-white flex px-6 py-2">
+        <div className=" h-20 text-white flex px-6 py-2 bg-themeBlack">
 
-            <div className="h-24 bg-black absolute px-3 py-2 flex justify-center items-center">
+            <div className="h-24 bg-themeBlack px-3 flex justify-center items-center">
                 <span><img src="/public/logo-2.png" className="w-20" alt="" /></span>
             </div>
 
