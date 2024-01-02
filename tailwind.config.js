@@ -9,7 +9,7 @@ export default {
         "themeBlack": "#1a1919"
       },
       fontFamily: {
-        "elegant": 'Oranienbaum'
+        "quicksand": 'Quicksand'
       }
     },
   },
