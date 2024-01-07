@@ -6,13 +6,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        "themeBlack": "#1a1919"
+        "themeBlack": "#1a1919",
+        "themeWhite": "#ecdfdf",
+        "themeGold": "#FCD664"
       },
       fontFamily: {
         "quicksand": 'Quicksand'
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

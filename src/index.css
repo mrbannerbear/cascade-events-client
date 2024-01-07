@@ -11,13 +11,12 @@ h1, h2, h3{
 }
 
 .scroll-down{
-    transform: translateY(0);
-    transition: transform 0.3s ease-in-out;
+    /* transform: translateY(0);
+    transition: transform 0.3s ease-in-out; */
     position: sticky;
     top: 0px;
   }
 
   .scroll-up{
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
+        visibility: hidden;
   }
