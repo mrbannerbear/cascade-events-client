@@ -7,9 +7,9 @@ const HomeContent = () => {
         
            { direction: "flex-row",
             img: "/homeSample1.jpg",
-            title: "Lorem Ipsum Title",
-            caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
-            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`},
+            title: "State-of-the-Art Events",
+            caption: `From weddings to corporate events, make your most important moments special with us. Mesmerizing decor & beautiful
+            setup to highlight your illustrious moments.`},
            { direction: "flex-row-reverse",
             img: "/homeSample2.jpg",
             title: "Lorem Ipsum Title Second",
