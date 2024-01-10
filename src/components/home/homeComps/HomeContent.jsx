@@ -17,9 +17,8 @@ const HomeContent = () => {
             },
            { direction: "flex-row-reverse",
             img: "/homeSample2.jpg",
-            title: "Lorem Ipsum Title Second",
-            caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
-            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`,
+            title: "Wonderfully Designed",
+            caption: `We treat each event like a piece of art, carefully crafting each keeping your special moments in mind.`,
             cta: <NavLink to={"/projects"}>
                 <button className="border-[1.5px] py-1 px-3 rounded-md">Explore Projects</button>
             </NavLink>},
@@ -28,7 +27,7 @@ const HomeContent = () => {
             title: "",
             caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
             fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`,
-            cta: <NavLink>
+            cta: <NavLink to={"/contact"}>
                 <button className="border-[1.5px] py-1 px-3 rounded-md">Contact Us</button>
             </NavLink>},
 

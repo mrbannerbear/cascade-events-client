@@ -14,10 +14,11 @@ const Navbar = ({scrollClass}) => {
     return (
         
         <div className={`text-white flex px-4 py-3 lg:px-8 bg-themeBlack z-50 ${scrollClass}`} data-aos="fade-down">
-            <div className="bg-themeBlack px-3 flex flex-col justify-center items-center gap">
+           <NavLink to={"/"}><div className="bg-themeBlack px-3 flex flex-col justify-center items-center gap">
                 <span><img src="/public/logo-2.png" className="w-16" alt="" /></span>
                 <span className="text-sm text-orange-200">Cascade Events</span>
             </div>
+            </NavLink>
 
             <div className="flex-1 items-end flex flex-col justify-center gap-y-5">
                 <ul className="flex gap-3 md:gap-6">
@@ -26,8 +27,8 @@ const Navbar = ({scrollClass}) => {
                 </ul>
                     <ul className="text-white gap-5 md:gap-10 hidden lg:flex">
                     <li><NavLink to={"/about"}>About</NavLink></li>
-                    <li><NavLink>Projects</NavLink></li>
-                    <li><NavLink>Contact</NavLink></li>
+                    <li><NavLink to={"/projects"}>Projects</NavLink></li>
+                    <li><NavLink to={"/contact"}>Contact</NavLink></li>
                     </ul>
                     <div>
                     <div className="dropdown dropdown-left lg:hidden">
