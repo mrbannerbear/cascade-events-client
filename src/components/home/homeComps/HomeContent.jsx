@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import HomeHero from "../../../custom/HomeHero";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const HomeContent = () => {
 
@@ -41,6 +42,8 @@ const HomeContent = () => {
                     <HomeHero direction={each?.direction} img={each?.img} title={each?.title} caption={each?.caption} cta={each?.cta}></HomeHero>
                 ))
             }
+            
+        <FloatingWhatsApp phoneNumber="+8801909221681" avatar="/logo-2.png" accountName="Cascade Events"></FloatingWhatsApp>
         </div>
     );
 };

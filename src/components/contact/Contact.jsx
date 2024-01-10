@@ -1,3 +1,5 @@
+import { ScrollRestoration } from "react-router-dom";
+
 const Contact = () => {
     return (
         <div className="hero min-h-screen text-themeWhite">
@@ -16,6 +18,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <ScrollRestoration/>
       </div>
     );
 };

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "react-slideshow-image/dist/styles.css";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Navbar from "../main/Navbar";
@@ -64,8 +63,6 @@ const Home = () => {
           <div className="min-h-screen py-6">
             <HomeContent></HomeContent>
           </div>
-
-        <FloatingWhatsApp phoneNumber="+8801909221681" avatar="/logo-2.png" accountName="Cascade Events"></FloatingWhatsApp>
           <Footer></Footer>
         </div>
       )}

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Helmet } from "react-helmet-async";
+import { ScrollRestoration } from "react-router-dom";
 
 const About = () => {
     return (
@@ -31,6 +32,7 @@ const About = () => {
     </div>
   </div>
 </div>
+<ScrollRestoration/>
         </>
     );
 };

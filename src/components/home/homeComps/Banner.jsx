@@ -48,7 +48,7 @@ const Banner = () => {
       ];
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen z-50">
         <div className="slide-container h-full">
           <Fade
             autoplay={true}
