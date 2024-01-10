@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import HomeHero from "../../../custom/HomeHero";
 
 const HomeContent = () => {
@@ -8,18 +9,28 @@ const HomeContent = () => {
            { direction: "flex-row",
             img: "/homeSample1.jpg",
             title: "State-of-the-Art Events",
-            caption: `From weddings to corporate events, make your most important moments special with us. Mesmerizing decor & beautiful
-            setup to highlight your illustrious moments.`},
+            caption: `From weddings to corporate events, make your most important moments special with us. 
+            From concept to celebration- where every detail matters. Let us turn your vision into reality.`,
+            cta: <NavLink to={"/about"}>
+                <button className="border-[1.5px] py-1 px-3 rounded-md">About Us</button>
+            </NavLink>
+            },
            { direction: "flex-row-reverse",
             img: "/homeSample2.jpg",
             title: "Lorem Ipsum Title Second",
             caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
-            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`},
+            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`,
+            cta: <NavLink to={"/projects"}>
+                <button className="border-[1.5px] py-1 px-3 rounded-md">Explore Projects</button>
+            </NavLink>},
            { direction: "",
             img: "/homeSample3.jpg",
-            title: "Lorem Ipsum Title Second",
+            title: "",
             caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
-            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`},
+            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`,
+            cta: <NavLink>
+                <button className="border-[1.5px] py-1 px-3 rounded-md">Contact Us</button>
+            </NavLink>},
 
     ]
 
@@ -28,7 +39,7 @@ const HomeContent = () => {
             {
                 homeContent.map(each => (
                     // eslint-disable-next-line react/jsx-key
-                    <HomeHero direction={each?.direction} img={each?.img} title={each?.title} caption={each?.caption}></HomeHero>
+                    <HomeHero direction={each?.direction} img={each?.img} title={each?.title} caption={each?.caption} cta={each?.cta}></HomeHero>
                 ))
             }
         </div>
