@@ -1,7 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import { ScrollRestoration } from "react-router-dom";
 
 const Contact = () => {
     return (
+        <>
+        <Helmet>
+            <title>Contact | Cascade Events</title>
+        </Helmet>
         <div className="hero min-h-screen text-themeWhite">
         <div className="hero-content text-center">
           <div className="max-w-md">
@@ -20,6 +25,7 @@ const Contact = () => {
         </div>
         <ScrollRestoration/>
       </div>
+      </>
     );
 };
 

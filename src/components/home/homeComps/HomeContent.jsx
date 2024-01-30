@@ -43,7 +43,7 @@ const HomeContent = () => {
                 ))
             }
             
-        <FloatingWhatsApp phoneNumber="+8801840351735" avatar="/logo-2.png" accountName="Cascade Events"></FloatingWhatsApp>
+        <FloatingWhatsApp phoneNumber="+8801840351735" avatar="/logo-2.png" accountName="Cascade Events" className="z-40"></FloatingWhatsApp>
         </div>
     );
 };

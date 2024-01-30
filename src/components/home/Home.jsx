@@ -58,7 +58,9 @@ const Home = () => {
         <div data-aos="fade-out" data-aos-duration="1000">
           {showNav && <Navbar scrollClass={scrollClass}></Navbar>}
           
+          <div className="z-50">
           <Banner></Banner>
+          </div>
 
           <div className="min-h-screen py-6">
             <HomeContent></HomeContent>
