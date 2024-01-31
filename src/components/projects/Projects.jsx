@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
-        <div>
-            
+        <div className="min-h-screen">
+            <img src="/projects/1.jpg" alt="" />
         </div>
     );
 };
