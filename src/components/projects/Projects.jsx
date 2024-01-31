@@ -22,7 +22,7 @@ const Projects = () => {
         {resources.map((each) => (
           <div className="w-full h-full" key={each.id}>
             <button
-              onClick={() => document.getElementById("my_modal_1").showModal()}
+              onClick={() => document.getElementById(`my_modal_${each.id}`).showModal()}
             >
               <img src={each.img} className="h-40 lg:h-80" alt="" />
             </button>
