@@ -26,8 +26,8 @@ const Projects = () => {
             >
               <img src={each.img} className="h-40 lg:h-80" alt="" />
             </button>
-            <dialog id={`my_modal_${each.id}`} className="modal">
-              <div className="modal-box">
+            <dialog id={`my_modal_${each.id}`} className="modal bg-themeBlack">
+              <div className="modal-box bg-themeBlack">
                 <img src={each.img} className="h-56 lg:h-96" alt="" />
                 <div className="modal-action">
                   <form method="dialog">
