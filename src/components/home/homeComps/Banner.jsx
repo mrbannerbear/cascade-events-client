@@ -18,7 +18,7 @@ const Banner = () => {
           ),
         },
         {
-          url: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          url: "/projects/10.jpg",
           caption: (
             <>
               <h1 className="font-medium text-4xl">Title</h1>
@@ -65,7 +65,7 @@ const Banner = () => {
                     backgroundImage: `url(${slideImage.url})`,
                     height: "100vh",
                   }}
-                  className="bg-center flex justify-center items-center"
+                  className="bg-center flex justify-center items-center bg-cover"
                 >
                   <div className="w-full bg-themeBlack/50  flex justify-center items-center text-center h-max relative top-16 py-4">
                     <div className="lg:w-1/3 text-white z-20">
