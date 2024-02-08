@@ -7,12 +7,9 @@ const Banner = () => {
           url: "/wedding1.jpg",
           caption: (
             <>
-              <h1 className="font-medium text-4xl">Wedding Events</h1>
+              <h1 className="font-medium text-4xl">Crafting Memorable Weddings</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                modi, asperiores, alias beatae libero aut reiciendis voluptas amet
-                reprehenderit corrupti voluptatum nihil. Voluptas fuga dolores
-                minima. Eaque possimus neque facere.
+              Let us turn your dream wedding into a reality with meticulous planning and exquisite attention to detail.
               </p>
             </>
           ),
@@ -21,12 +18,10 @@ const Banner = () => {
           url: "/projects/10.jpg",
           caption: (
             <>
-              <h1 className="font-medium text-4xl">Title</h1>
+              <h1 className="font-medium text-4xl">Elevating Social Occasions</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                modi, asperiores, alias beatae libero aut reiciendis voluptas amet
-                reprehenderit corrupti voluptatum nihil. Voluptas fuga dolores
-                minima. Eaque possimus neque facere.
+              From intimate gatherings to joyous celebrations,
+              we specialize in creating memorable social events tailored to your unique style.
               </p>
             </>
           ),
@@ -35,12 +30,9 @@ const Banner = () => {
           url: "/social1.jpg",
           caption: (
             <>
-              <h1 className="font-medium text-4xl">Title</h1>
+              <h1 className="font-medium text-4xl">Orchestrating Corporate Events</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                modi, asperiores, alias beatae libero aut reiciendis voluptas amet
-                reprehenderit corrupti voluptatum nihil. Voluptas fuga dolores
-                minima. Eaque possimus neque facere.
+              Trust our expert team to deliver professional and polished corporate events that leave a lasting impression on clients and colleagues alike.
               </p>
             </>
           ),
@@ -50,7 +42,7 @@ const Banner = () => {
     return (
         <div className="min-h-screen z-50">
         <div className="slide-container h-full">
-          <Fade
+        <Fade
             autoplay={true}
             arrows={false}
             canSwipe={true}
@@ -75,10 +67,11 @@ const Banner = () => {
                 </div>
               </div>
             ))}
-          </Fade>
+        </Fade>
         </div>
       </div>
     );
+    
 };
 
 export default Banner;
