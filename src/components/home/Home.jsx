@@ -58,9 +58,11 @@ const Home = () => {
         <div data-aos="fade-out" data-aos-duration="1000">
           {showNav && <Navbar scrollClass={scrollClass}></Navbar>}
           
-          <div className="z-50">
+          {/* <div className="z-50">
           <Banner></Banner>
-          </div>
+          </div> */}
+
+<video src="/cascade-vid1.mp4" controls autoPlay></video>
 
           <div className="min-h-screen py-6">
             <HomeContent></HomeContent>

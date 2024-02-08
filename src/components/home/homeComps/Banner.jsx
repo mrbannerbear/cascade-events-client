@@ -15,7 +15,7 @@ const Banner = () => {
           ),
         },
         {
-          url: "/projects/10.jpg",
+          url: "/social2.jpg",
           caption: (
             <>
               <h1 className="font-medium text-4xl">Elevating Social Occasions</h1>
@@ -27,7 +27,7 @@ const Banner = () => {
           ),
         },
         {
-          url: "/social1.jpg",
+          url: "/social2.jpg",
           caption: (
             <>
               <h1 className="font-medium text-4xl">Orchestrating Corporate Events</h1>
