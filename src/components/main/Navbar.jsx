@@ -13,7 +13,7 @@ const Navbar = ({scrollClass}) => {
 
     return (
         
-        <div className={`text-white flex px-4 py-3 lg:px-8 bg-themeBlack z-50 ${scrollClass}`} data-aos="fade-down">
+        <div className={`text-white flex px-4 py-3 lg:px-8 bg-themeBlack z-50 ${scrollClass} z-50`} data-aos="fade-down">
            <NavLink to={"/"}><div className="bg-themeBlack px-3 flex flex-col justify-center items-center gap">
                 <span><img src="/logo-2.png" className="w-16" alt="" /></span>
                 <span className="text-sm text-orange-200">Cascade Events</span>

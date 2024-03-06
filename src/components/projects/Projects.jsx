@@ -17,7 +17,9 @@ const Projects = () => {
   ];
   return (
     <div className="min-h-screen">
+      <div className="z-40">
       <Banner />
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 py-12">
         {resources.map((each) => (
           <div className="w-full h-full" key={each.id}>

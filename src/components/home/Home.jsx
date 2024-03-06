@@ -3,7 +3,6 @@ import "react-slideshow-image/dist/styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Navbar from "../main/Navbar";
-import Banner from "./homeComps/Banner";
 import HomeContent from "./homeComps/HomeContent";
 import Footer from "../main/Footer";
 import { Helmet } from "react-helmet-async";
@@ -62,7 +61,11 @@ const Home = () => {
           <Banner></Banner>
           </div> */}
 
-<video src="/cascade-vid1.mp4" controls autoPlay></video>
+<div style={{backgroundClip: `url(")`}}>
+<video src="/cascade-vid1.webm" controls autoPlay={true} loop playsInline className="min-h-[100vh] w-full"></video>
+hello
+</div>
+
 
           <div className="min-h-screen py-6">
             <HomeContent></HomeContent>
