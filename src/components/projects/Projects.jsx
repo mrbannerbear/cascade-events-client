@@ -1,3 +1,4 @@
+import { ScrollRestoration } from "react-router-dom";
 import Banner from "../home/homeComps/Banner";
 
 const Projects = () => {
@@ -41,6 +42,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <ScrollRestoration/>
     </div>
   );
 };
