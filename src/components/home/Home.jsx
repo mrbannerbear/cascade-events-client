@@ -64,7 +64,7 @@ const Home = () => {
 <div className="relative">
 <div className="text-white absolute flex flex-col text-center justify-center items-center h-full w-full z-50 top-12 px-4">
   <h3>Welcome to</h3>
-  <h1 className="text-5xl">Cascade Events</h1>
+  <h1 className="text-4xl lg:text-5xl">Cascade Events</h1>
 </div>
   <div className="absolute bg-gradient-to-b from-black/20 via-black/20 to-themeBlack h-full w-full"></div>
 <video autoPlay loop muted playsInline className="h-[100vh] mx-auto lg:w-[90vw] object-cover">
