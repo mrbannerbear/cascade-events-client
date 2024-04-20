@@ -62,7 +62,7 @@ const Home = () => {
           </div> */}
 
 <div className="relative">
-<div className="text-white absolute flex flex-col text-center justify-center items-center h-full w-full z-50">
+<div className="text-white absolute flex flex-col text-center justify-center items-center h-full w-full z-50 top-12">
   <h3>Welcome to</h3>
   <h1 className="text-5xl">Cascade Events</h1>
 </div>
