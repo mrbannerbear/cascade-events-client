@@ -14,7 +14,7 @@ const Projects = () => {
     { id: 9, img: "/projects/9.webp" },
     { id: 10, img: "/projects/10.webp" },
     { id: 11, img: "/projects/11.webp" },
-    { id: 12, img: "/projects/12.webp" },
+    { id: 12, img: "/projects/12.jpg" },
   ];
   return (
     <div className="min-h-screen">

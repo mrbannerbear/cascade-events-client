@@ -61,9 +61,14 @@ const Home = () => {
           <Banner></Banner>
           </div> */}
 
-<div style={{backgroundClip: `url(")`}}>
-<video src="/cascade-vid1.webm" controls autoPlay={true} loop playsInline className="min-h-[100vh] w-full"></video>
+<div className="min-h-screen mx-auto">
+<video autoPlay loop muted playsInline className="h-[100vh] mx-auto bg-cover w-[100vw]">
+  <source src="/cascade-vid1.webm" type="video/webm" className="fixed h-[100vh] bg-cover"/>
+</video>
 
+<div className="text-white">
+  hello
+</div>
 </div>
 
 
