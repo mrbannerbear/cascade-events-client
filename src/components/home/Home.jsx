@@ -62,7 +62,7 @@ const Home = () => {
           </div> */}
 
 <div className="relative">
-<div className="text-white text-5xl absolute flex justify-center items-end h-full w-full z-50 -top-24">
+<div className="text-white text-5xl absolute flex justify-center items-end h-full w-full z-50 -top-1/2">
   <h1>Hello</h1>
 </div>
   <div className="absolute bg-gradient-to-b from-black/20 via-black/20 to-themeBlack h-full w-full"></div>
