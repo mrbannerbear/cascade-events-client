@@ -62,8 +62,8 @@ const Home = () => {
           </div> */}
 
 <div className="min-h-screen mx-auto">
-<video autoPlay loop muted playsInline className="h-[100vh] mx-auto bg-cover w-[100vw]">
-  <source src="/cascade-vid1.webm" type="video/webm" className="fixed h-[100vh] bg-cover"/>
+<video autoPlay loop muted playsInline className="h-[100vh] mx-auto bg-center w-[100vw] object-cover">
+  <source src="/cascade-vid1.webm" type="video/webm"/>
 </video>
 
 <div className="text-white">
