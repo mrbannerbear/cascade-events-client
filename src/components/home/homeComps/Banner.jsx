@@ -57,7 +57,7 @@ const Banner = () => {
                     backgroundImage: `url(${slideImage.url})`,
                     height: "100vh",
                   }}
-                  className="bg-center flex justify-center items-center bg-cover"
+                  className="bg-center flex justify-center items-center bg-cover z-20"
                 >
                   <div className="w-full bg-themeBlack/50  flex justify-center items-center text-center h-max relative top-16 py-4">
                     <div className="lg:w-1/3 text-white z-20">
