@@ -68,7 +68,7 @@ const Home = () => {
   <h3>Celebrate Your Big Moments With Us</h3>
 </div>
   <div className="absolute bg-gradient-to-b from-black/20 via-black/20 to-themeBlack h-full w-full"></div>
-<video autoPlay loop muted playsInline className="h-[100vh] mx-auto lg:w-[90vw] object-cover">
+<video autoPlay loop muted playsInline preload="metadata" className="h-[100vh] mx-auto lg:w-[90vw] object-cover">
   <source src="/cascade-vid1.webm" type="video/webm"className="w-full mx-auto"/>
 </video>
 
