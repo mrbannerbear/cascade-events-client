@@ -26,8 +26,7 @@ const HomeContent = () => {
            { direction: "",
             img: "/homeSample3.jpg",
             title: "",
-            caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur 
-            fuga ex vitae sapiente. Repudiandae vel dolorem, excepturi voluptatem sunt mollitia tempore aperiam illo numquam esse`,
+            caption: `Get a step closer to cherishing your special moments, contact with us.`,
             cta: <NavLink to={"/contact"}>
                 <button className="border-[1.5px] py-1 px-3 rounded-md">Contact Us</button>
             </NavLink>},
